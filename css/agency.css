@@ -1,0 +1,297 @@
+body{
+font-size:17px;
+font-family: 'Hind', sans-serif;
+
+	
+}
+h1,h2,h3,h4,h5{font-family: 'Hind', sans-serif;}
+.navbar-custom .navbar-toggle {
+  background-color: #fed136;
+  border-color: #fed136;
+  font-family: 'Titillium Web', sans-serif;
+  text-transform: uppercase;
+  color: white;
+  font-size: 12px;
+  margin-top: 26px;
+}
+
+.navbar-custom .nav li a {
+
+  text-transform: uppercase;
+  font-weight: 400;
+  letter-spacing: 1px;
+  color: white;
+  padding: 3px 5px;
+font-size: 14px;
+}
+.navbar-custom .nav li a:hover{
+	border-bottom:1px solid red;
+	color:red;
+}
+.navbar-custom .nav li{
+	padding-right: 27px;
+padding-top: 16px;
+	
+}
+
+
+@media (min-width: 768px) {
+  .navbar-custom {
+    background-color: transparent;
+    padding: 25px 0;
+    -webkit-transition: padding 0.3s;
+    -moz-transition: padding 0.3s;
+    transition: padding 0.3s;
+    border: none;
+	padding-top: 37px;
+  }
+  .navbar-custom .navbar-brand {
+    font-size: 2em;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s;
+  }
+  .navbar-custom .navbar-nav > .active > a {
+    border-radius: 3px;
+  }
+}
+.navbar-default {
+	
+	border: none;
+}
+@media (min-width: 768px) {
+  .navbar-custom.affix {
+    background-color:#14324b;
+padding: 10px 0px 21px 0px;
+  }
+  .navbar-custom.affix .navbar-brand {
+    font-size: 1.5em;
+  }
+}
+.navbar-right {
+	margin-right: -15px;
+	padding-top: 10px;
+}
+.banner{
+	background:url(../img/Rectangle-37.jpg);
+	padding: 186px 0px 100px 0px;
+	background-repeat: no-repeat;
+background-size: cover;
+}
+.intro-text{
+	border: 1px solid white;
+text-transform: uppercase;
+color: white;
+padding: 8px 0px 13px 0px;
+max-width: 379px;
+margin: 0 auto;
+}
+.intro-text h1{
+	font-size:44px
+}
+.Sianmartin img{
+	padding:123px 0px 55px 0px;
+	width:100%
+}
+.Sianmartin-text p{
+	font-size:18px;
+	line-height:32px;
+	color:#828c95;
+	padding: 26px 0px 125px 0px;
+	
+}
+.Sianmartin h2{
+	color:#636363
+}
+.Offers-main img{
+	width:100%;padding-top: 17px;
+}
+.Offers-text h3{
+	font-weight:700;
+	color:#263e5b;
+	text-transform:uppercase;
+	font-size: 19px;
+	
+	
+}
+.Offers-text p{
+	
+	color:#9ba4b0;
+
+}
+.Offers-text{
+	background:white;
+	margin-top: -20px;
+	padding: 27px 0px;
+}
+.btn {
+display: inline-block;
+padding: 7px 21px;
+margin-bottom: 0;
+font-size: 14px;
+line-height: 1.42857143;
+text-align: center;
+white-space: nowrap;
+vertical-align: middle;
+-ms-touch-action: manipulation;
+touch-action: manipulation;
+cursor: pointer;
+-webkit-user-select: none;
+-moz-user-select: none;
+-ms-user-select: none;
+user-select: none;
+background-image: none;
+border: 1px solid #e8eff3;
+margin-top: 20px;
+margin-right: 33px;
+text-transform: uppercase;
+font-weight: 500;
+border-radius: 0px;
+}
+.Offers-text h2{
+	color:red;
+	font-weight:700;
+	font-size: 30px;
+	padding-left: 43px;
+}
+.Other-Offers{
+	background:#f6fafc;
+	padding: 108px 0px;
+}
+.Offers{
+	max-width: 289px;
+margin: 0 auto;
+padding-bottom: 45px;
+}
+.Offers h1{
+border: 1px solid #e6edf2;
+padding: 20px 0px 20px 0px;
+box-shadow: -3px -2px 27px 22px #e6edf2;
+}
+.under-row{
+	padding-top: 20px;
+}
+.Subscribe{
+	background:#6b6b6b;
+	padding:100px 0px
+}
+
+.Subscribe p{
+color:#ffffff
+
+
+}
+.Subscribe h1{
+color:#ffffff;
+line-height: 65px;
+
+}
+.btn-SUBSCRIBE {
+	display: inline-block;
+	padding: 12px 40px;
+	margin-bottom: 0;
+	font-size: 18px;
+	font-weight: 400;
+	line-height: 1.42857143;
+	text-align: center;
+	white-space: nowrap;
+	vertical-align: middle;
+	-ms-touch-action: manipulation;
+	touch-action: manipulation;
+	cursor: pointer;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	background-image: none;
+	border: 1px solid #ff3d54;
+	margin-top: 21px;
+	text-transform: uppercase;
+	font-weight: 700;
+	background: #ff3d54;
+	color: white;
+}
+.footer-top{
+	background:#0e385d;
+	padding: 80px 0px 60px 0px;
+	color:white
+}
+.Worldtravel-sideone{
+	display:table-cell
+}
+.Worldtravel-sidetwo{
+	display:table-cell
+}
+.check-list li{
+	list-style:none
+}
+.check-list{
+	padding-left: 3px;
+}
+.check-list li i{
+	color: white;
+padding-right: 10px;
+}
+.footer-top-one p{
+	padding: 40px 34px 16px 0px;
+	line-height: 29px;
+	color:#b7cde0
+}
+.footer-top-one i{
+	padding-right: 17px;
+color: #456580;
+}
+.footer-top-two h3{
+	padding-bottom:30px
+}
+.footer-top-three h3{
+	padding-bottom:30px
+}
+.footer-top-four h3{
+	padding-bottom:30px
+}
+.OurAddress-sideone{
+	display:table-cell
+}
+.OurAddress-sidetwo{
+	display:table-cell
+}
+.Worldtravel-sideone i{
+	color:#22b4ff;
+	padding-right: 17px;
+}
+.OurAddress-sideone img{
+	padding-right: 12px;
+}
+.OurAddress-sidetwo p{
+	line-height:34px;
+	color:#b7cde0
+}
+.footer-top-two-text p{
+	color:#b7cde0;line-height: 29px;
+}
+.Worldtravel-sidetwo p{
+	color:#b7cde0
+}
+.footer-text span{
+	color:#ff3d54
+}
+footer{
+	border-top:1px solid #1a3e5d;
+	background:#0e385d;
+	padding:20px 0px
+}
+.footer-text p{
+	color:white
+}
+.Worldtravel-sidetwo a{color:white}
+.Sianmartin h1{
+	font-size:34px
+}
+.Offers-main{
+	padding: 0px 4px;
+}
+
+
+
+
